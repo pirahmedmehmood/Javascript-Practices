@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="Heading">Food Menu</h1>
+    <div class="topArea">
+        <div class="btns">
+            <button onclick="showMenu()">All</button>
+            <button onclick="showMenu('breakfast')">Breakfast</button>
+            <button onclick="showMenu('lunch')">Lunch</button>
+            <button onclick="showMenu('beverages')">Beverages</button>
+             <button onclick="showMenu('deserts')">Deserts</button>
+        </div>
+
+        <div class="searchBox">
+            <input type="text" id="searchInput" placeholder="Search item...">
+            <button id="searchBtn" onclick="searchItem()">Search</button>
+        </div>
+    </div>
+
+    <div id="cardBig"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
